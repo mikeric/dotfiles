@@ -38,3 +38,7 @@ Only a few useful aliases here for now: `sd` for a colored staged diff, `clear` 
 Includes a minimal bash prompt with current branch info. Also includes an `rmb` command to remove all merged-into-master branches (local + remote).
 
 [1]: http://robots.thoughtbot.com/rcm-for-rc-files-in-dotfiles-repos
+[2]: https://github.com/scrooloose/nerdtree
+[3]: https://github.com/kien/ctrlp.vim
+[4]: https://github.com/tpope/vim-surround
+[5]: https://github.com/junegunn/vim-easy-align
