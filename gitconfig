@@ -1,0 +1,19 @@
+[user]
+	name = Michael Richards
+	email = mike22e@gmail.com
+[push]
+	default = simple
+[branch]
+  autosetupmerge = true
+[alias]
+  sd = diff --cached --color
+  clear = !git add . && git reset --hard head
+  pub = !git push -u ${1:-origin} `git symbolic-ref HEAD`
+[github]
+	user = mikeric
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[core]
+	editor = /usr/bin/vim
