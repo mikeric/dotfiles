@@ -42,3 +42,4 @@ Includes a minimal bash prompt with current branch info. Also includes an `rmb` 
 [3]: https://github.com/kien/ctrlp.vim
 [4]: https://github.com/tpope/vim-surround
 [5]: https://github.com/junegunn/vim-easy-align
+[6]: https://github.com/gmarik/Vundle.vim
