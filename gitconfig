@@ -9,6 +9,7 @@
   sd = diff --cached --color
   clear = !git add . && git reset --hard head
   pub = !git push -u ${1:-origin} `git symbolic-ref HEAD`
+  save = !git add -A && git stash && git stash apply stash@{0}
 [github]
   user = mikeric
 [filter "media"]
